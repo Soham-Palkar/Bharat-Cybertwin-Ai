@@ -1,0 +1,6 @@
+name,asset_type,ip_address,criticality,owner
+DB01,database,10.0.1.5,Critical,db-owner
+VPN-GW,vpn,10.0.0.1,High,net-admin
+WEB01,server,10.0.1.10,Medium,web-dev
+FW01,firewall,10.0.0.2,High,sec-ops
+WORK-05,endpoint,10.0.2.55,Low,hr-dept

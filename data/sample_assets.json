@@ -1,0 +1,39 @@
+{
+  "assets": [
+    {
+      "name": "DB01",
+      "asset_type": "database",
+      "ip_address": "10.0.1.5",
+      "criticality": "Critical",
+      "owner": "db-owner"
+    },
+    {
+      "name": "VPN-GW",
+      "asset_type": "vpn",
+      "ip_address": "10.0.0.1",
+      "criticality": "High",
+      "owner": "net-admin"
+    },
+    {
+      "name": "WEB01",
+      "asset_type": "server",
+      "ip_address": "10.0.1.10",
+      "criticality": "Medium",
+      "owner": "web-dev"
+    },
+    {
+      "name": "FW01",
+      "asset_type": "firewall",
+      "ip_address": "10.0.0.2",
+      "criticality": "High",
+      "owner": "sec-ops"
+    },
+    {
+      "name": "WORK-05",
+      "asset_type": "endpoint",
+      "ip_address": "10.0.2.55",
+      "criticality": "Low",
+      "owner": "hr-dept"
+    }
+  ]
+}
